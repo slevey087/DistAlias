@@ -1,0 +1,9 @@
+Package: DistAlias
+Type: Package
+Title: Probability Distribution Wrapper
+Version: 1.0
+Date: 2018-03-10
+Author: Sam Levey
+Maintainer: Sam Levey <tobias087@gmail.com>
+Description: Fetches probability distribution functions, but using commands that aren't impossible to remember, unlike the defaults.
+License: GPL-2
