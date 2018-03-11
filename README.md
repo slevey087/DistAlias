@@ -9,13 +9,13 @@ quant(distribution)
 random(distribution)
 ```
 
-### Argument{
+### Argument
   - `distribution`
     A string with the name of the distribution (using R's usual abbrevations).
 ## Details
 When you need some probability distribution function, don't you usually think "p" instead of "d"? When you need a cumulative distribution function, don't you think "cdf" rather than "p"? Well, me too. If you're tired of getting the wrong probability function EVERY SINGLE TIME all because of R's poor choice of naming, then this package is for you. All it does is fetch the distributions you want, by remembering which stupid letter it's supposed to be for you. Supply the normal R abbreviation for the distribution as a string (ie. for 'dnorm' the distribution is 'norm'. For 'ppois' the distribution is 'pois'. Etc.), and each of the wrapper functions will return the function you're actually looking for. Then supply the arguments you need to that function. See the example for more details.
 
-## Return Value{
+## Return Value
 A probability function (either a density, cdf, quantile, or random number function).
 
 
